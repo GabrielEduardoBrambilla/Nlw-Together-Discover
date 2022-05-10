@@ -1,14 +1,11 @@
 .content{
   display: grid;
   grid-template-columns: 60% 40%;
-
   grid-template-rows: 11.4rem 1fr;
 
   grid-template-areas:
   'header header'
   'left right'
-  
-
 } 
 
 header{
@@ -17,8 +14,8 @@ header{
 
 #bg{
   grid-area: left;
-  background: url('/assets/home-bg-img.svg') no-repeat top/contain;
 
+  background: url('/assets/home-bg-img.svg') no-repeat top/contain;
   background-position-x: -10rem;
 }
 
@@ -28,8 +25,8 @@ main{
   display: flex;
   align-items: center;
   margin-top: -12rem;
-  
 }
+
 main .container{
   width: min(36.3rem, 100%);
 }
@@ -42,64 +39,22 @@ main h2{
   margin-bottom: 2.4rem;
 }
 
-input, button, .button{
-  border-radius: .8rem;
-  height: 5rem;
+input{
+  border: .2rem solid var(--grey-blue);
+  padding: 0 1.6rem;
+  outline: none;
 }
 
-button, .button{
-  font-family: 'Poppins';
-  font-weight: 500;
-  line-height: 0;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background: var(--blue);
-  color: var(--white);
-
-  transition: filter .2s;
-
-  cursor: pointer;
-}
-
-button:hover, .button:hover{
-  filter: brightness(1.2);
-}
-
-button>img, .button>img{
-  margin-right: 1rem;
-  width: 2rem;
-}
-
-button.outlined, .button.outlined{
-  background: var(--white);
-  color: var(--blue);
-  border: .2rem solid var(--blue);
-
-}
-
+/* right place */
 input, button, .button{
   width: 100%;
   margin-bottom: 1.8rem;
 }
 
-
-.content header{
-  width: 80%;
-  margin: 3.5rem auto;
-}
-
-.content header > img{
-  width: 16.7rem;
-}
-
-
-
 .separator{
   display: flex;
   align-items: center;
+  
   margin: 4rem 0 ;
 }
 
