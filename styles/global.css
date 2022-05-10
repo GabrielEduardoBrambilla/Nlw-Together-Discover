@@ -27,6 +27,7 @@
  }
 
  body{
+   display: flex;
    height: 100vh;
    background-color: (--background);  
 }
@@ -36,6 +37,12 @@ body, button, input, textarea{
 
   font-family: 'Open Sans', sans-serif;
   
+}
+
+
+input{
+  border: .2rem solid var(--grey-blue);
+  padding: 0 1.6rem;
 }
 
 .content{
