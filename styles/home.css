@@ -87,7 +87,12 @@ input{
   padding: 0 1.6rem;
 }
 
+.content header{
+  width: 80%;
+  margin: 3.5rem auto;
+}
 
-
-
+.content header > img{
+  width: 16.7rem;
+}
 
