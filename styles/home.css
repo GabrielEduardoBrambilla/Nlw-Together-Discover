@@ -24,7 +24,7 @@ main{
 
   display: flex;
   align-items: center;
-  margin-top: -12rem;
+  margin-top: -4rem;
 }
 
 main .container{
@@ -54,7 +54,7 @@ input, button, .button{
 .separator{
   display: flex;
   align-items: center;
-  
+
   margin: 4rem 0 ;
 }
 
