@@ -14,7 +14,7 @@
   --blue: #3485FF;
   --background: #F6FAFF;
   --overlay:#040911;
-  --icons-detalis: #A5B0C1;
+  --icons-details: #A5B0C1;
 
   /* GREY */
   --grey-dark: #4D5E77;
@@ -65,7 +65,7 @@ input, button, .button{
 
 
 button, .button{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   line-height: 0;
 
