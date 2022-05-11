@@ -98,7 +98,7 @@ button.outlined, .button.outlined{
 button.red, 
 .button.red{
   /* CSS was not getting the variable */
-  /* background:var(--red); */
+  background:var(--red);
   background:#E83F5B;
   color: var(--white);
 }
