@@ -95,6 +95,21 @@ button.outlined, .button.outlined{
   border: .2rem solid var(--blue);
 }
 
+button.red, 
+.button.red{
+  /* CSS was not getting the variable */
+  /* background:var(--red); */
+  background:#E83F5B;
+  color: var(--white);
+}
+
+button.grey, 
+.button.grey{
+  background: var(--grey-light);
+  color: var(--grey-dark);
+}
+
+/* Header */ 
 
 .content header{
   width: 80%;
