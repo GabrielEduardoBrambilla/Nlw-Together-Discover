@@ -2,9 +2,9 @@
   "name": "nlw-together-discover",
   "version": "1.0.0",
   "description": "NLW rocket seat, projeto de gerenciamento de perguntas anonimas de usuario",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "start" :"node src/server.js",
+    "start": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +21,8 @@
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
