@@ -12,7 +12,7 @@ route.get('/create-pass', (req, res) =>
 
 route.get('/room/:room', (req, res) => res.render('room'))
 
-route.post('/room/:room/:question/:action', questionController.index)
-route.post('/room/create-room', RoomController.create)
+route.post('/question/:room/:question/:action', questionController.index)
+route.post('/create-room', RoomController.create)
 
 module.exports = route
