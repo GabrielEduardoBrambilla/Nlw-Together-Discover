@@ -1,4 +1,5 @@
 const express = require('express')
+// search for help in te communitie
 const route = require('./route')
 const path = require('path')
 
