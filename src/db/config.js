@@ -6,3 +6,4 @@ module.exports = () => {
     filename: 'src/db/rocketq.sqlite'
   })
 }
+// good config
